@@ -1,0 +1,118 @@
+body {
+  /* background-image: url(../../Downloads/mcc.jpg);
+    background-size: 60rem;
+    background-position: top;
+    background-repeat: no-repeat; */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #28a745; Green color */
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #28a745; /* Green color for side navigation */
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  color: #fff; /* Text color for side navigation links */
+  margin-bottom: 50px; /* Add margin between each link */
+}
+
+.sidenav a:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.main {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.teacher-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  text-align: left;
+}
+
+th {
+  background-color: #28a745;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #05ec47;
+}
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 500px;
+  margin-top: 20rem;
+}
+
+.box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #28a745;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+}
+
+.btn-link {
+  color: #218838;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.btn-right {
+  float: right;
+  width: 7rem;
+}
+
+
