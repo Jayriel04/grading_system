@@ -1,0 +1,71 @@
+.btn {
+    width: 100%;
+    /* Make buttons fill the grid cell */
+    font-size: 24px;
+    /* Increase the font size of the buttons */
+    padding: 70px 30px;
+    /* Add padding to increase button size */
+    border: 2px solid black;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* Display buttons in 2 columns */
+    /* gap: 1px; Add some space between buttons */
+    justify-content: center;
+    /* Center the buttons horizontally */
+    align-items: center;
+    /* Center the buttons vertically */
+    border-color: black 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
